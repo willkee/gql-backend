@@ -1,0 +1,54 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Smith",
+      "age": 20,
+      "title": "DevOps Engineer",
+      "companyId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Pete Hunt",
+      "age": 30,
+      "title": "Mechanical Engineer",
+      "companyId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Mary Key",
+      "age": 40,
+      "title": "Software Engineer",
+      "companyId": "3"
+    },
+    {
+      "id": "4",
+      "name": "Draco Malfoy 2",
+      "age": 18,
+      "title": "Wizard",
+      "companyId": "1"
+    }
+  ],
+  "companies": [
+    {
+      "id": "1",
+      "name": "Apple",
+      "ceo": "Tim Cook"
+    },
+    {
+      "id": "2",
+      "name": "Google",
+      "ceo": "Sundar Pichai"
+    },
+    {
+      "id": "3",
+      "name": "Facebook",
+      "ceo": "Mark Zuckerberg"
+    },
+    {
+      "id": "4",
+      "name": "Microsoft",
+      "ceo": "Satya Nadella"
+    }
+  ]
+}

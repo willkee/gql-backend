@@ -19,6 +19,7 @@ const server = new ApolloServer<MyContext>({
 	typeDefs,
 	resolvers,
 	plugins: [ApolloServerPluginDrainHttpServer({ httpServer })],
+	formatError: (err) => ({ message: err.message }),
 });
 
 await server.start();
